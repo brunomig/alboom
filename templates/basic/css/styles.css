@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background: #dae2e5;
+	top: 0;
+}
+
+#content {
+	margin-top: 40px;
+}
+
+#content > div.pic {
+	display: inline-block;
+	border: 1px solid #CCCCCC;
+	margin: 5px;
+}
+
+#content > div.pic > a > img {
+	width: 300px;
+	height: 160px;
+	display: block;
+}

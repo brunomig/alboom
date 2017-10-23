@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>{{title}}</title>
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+
+	<body>
+
+		<div id="header"></div>
+		<div id="content">
+			% for item in pics:
+			<div class="pic">
+				<a href="#">
+					<img src="{{item['src']}}" alt="{{item['alt']}}"/>
+				</a>
+			</div>
+			% end
+		</div>
+
+	</body>
+</html>
